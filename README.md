@@ -1,1 +1,2 @@
 # TGWebScraper
+## This web scraper scrapes shipping information of packages from forwarders' websites. It currently supports DHL, TNT Fedex, UPS and SF Express. Simply input the forwarder, waybill no. and it will return an excel file containing information (Master Air Waybill, ETA, Freight No., Port) derived from their websites. This scraper can save more than half of the time in my daily workflow of preparing documents for customs declaration.
