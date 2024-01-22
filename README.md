@@ -12,13 +12,7 @@ To use TGWebScraper, follow these steps:
    git clone https://github.com/nicholashkyuen/TGWebScraper.git
    ```
 
-2. Navigate to the project directory:
-
-   ```bash
-   cd TGWebScraper
-   ```
-
-3. Install the required dependencies. It is recommended to use a virtual environment:
+2. Install the required dependencies. It is recommended to use a virtual environment:
 
    ```bash
    python3 -m venv env
@@ -26,6 +20,13 @@ To use TGWebScraper, follow these steps:
    env\Scripts\activate  # For Windows
    pip install -r requirements.txt
    ```
+
+3. Download and install the appropriate version of chromedriver:
+
+Determine your Chrome browser version by navigating to chrome://version in the address bar.
+Visit the ChromeDriver downloads page at [https://sites.google.com/a/chromium.org/chromedriver/downloads](https://chromedriver.chromium.org/downloads).
+Download the chromedriver version that matches your Chrome browser version and operating system.
+Extract the downloaded chromedriver executable and copy it to a location in your project directory or in your system's PATH environment variable.
 
 ## Usage
 
